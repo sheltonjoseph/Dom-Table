@@ -1,0 +1,42 @@
+section{
+    padding:15px;
+    text-align:center;
+}
+button{
+    font-size:20px;
+    padding:14px 25px;
+    background-color:blue;
+    color:whitesmoke;
+
+}
+button:hover{
+    cursor: pointer;
+    
+}
+table,th,td{
+    border:2px solid rgb(70,61,61);
+    border-collapse:collapse;
+    padding:10px;
+    
+}
+th{
+    background-color:red;
+}
+table{
+    width:100%;
+    margin-top: 10px;
+    box-shadow: 0 0 10px grey;
+}
+.input-field{
+    font-size: 30px;
+    margin:20px;
+    height:50px;
+    border: 2px solid green;
+    outline: none;
+    border-radius:8px
+
+
+}
+.input-field:focus{
+    background-color:lightgreen;
+}
